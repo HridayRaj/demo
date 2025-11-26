@@ -1,0 +1,13 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "learning ci cd through this repo\r second push",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Building the project...\" && echo \"Build complete!\"",
+    "test": "echo \"Running tests...\" && echo \"All tests passed!\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
