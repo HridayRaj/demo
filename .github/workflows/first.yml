@@ -1,0 +1,14 @@
+name: First Workflow
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+      - name: say hello
+        run: echo "Hello, World!"
